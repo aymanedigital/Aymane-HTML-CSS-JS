@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@700&family=Oswald:wght@300;500;600;700&family=Teko&display=swap');
+
+.title{
+    color: chocolate;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(222, 184, 135, 0.527);
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.introduction, .html, .css, .js, .integration, .best, .conclusion{
+    color: red;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6, #p7, #list2{
+    color: black;
+    font-family: 'B612', sans-serif;
+    background-color: white;
+}
+
+.footer{
+    background-color: rgb(80, 75, 75);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chartreuse;
+    border-radius: 9px;
+}
+
+
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+
+/* navbar*/
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFD700; /* Goldenrod color */
+  border-radius: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 4px 8px rgb(138, 165, 18); /* Add a subtle box shadow */
+  z-index: 1000; /* Ensure the navigation bar is above other elements */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  margin-left: 0;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Teko', sans-serif;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.navbar li a:hover {
+  background-color: #b7b92a; /* Dark background on hover */
+}
+
+  #img1{
+    width: 100px;
+  }
+
+  #imghtml{
+    width: 50px;
+  }
+
+  /*mobil*/
+  
+  @media only screen and (max-width: 600px){
+    .title{
+      color: chocolate;
+      font-size: 15px;
+      font-family: 'Oswald', sans-serif;
+      background-color: rgba(222, 184, 135, 0.527);
+      border-style: dotted;
+      border-color: blue;
+      border-radius: 10px;
+      text-align: center;
+  }
+  
+  }
